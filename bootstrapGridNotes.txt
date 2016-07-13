@@ -1,0 +1,9 @@
+col-xs-*      <--- Will not stack
+col-sm-*      <--- Will stack once the screen size gets small enough
+col-md-*      <--- Will stack once the screen size gets small enough ()
+col-lg-*      <--- Will stack once the screen size gets small enough (It will appear stacked on laptops, this size for huge screens)
+
+
+On the larger column sizes, the columns will stack only on are larger screens.
+So for example, if I am using my 13 inch macbook pro, and I give it a column size of col-lg-*, the columns will be already stacked whenever I refresh.
+It will only be horizontal if your screen is HUGE.
